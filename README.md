@@ -20,7 +20,7 @@ This project was developed as **Assignment 1** of the **Innomatics Research Lab 
 
 ## 🔗 Live Demo
 Experience the project live here:  
-👉 [Personal Budget Tracker](https://yourusername.github.io/personal-budget-tracker/)
+👉 [Personal Budget Tracker](https://jaswanthchalla.github.io/innomaticsInternshipTask1/)
 
 ---
 
