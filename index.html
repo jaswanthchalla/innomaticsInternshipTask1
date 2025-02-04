@@ -6,29 +6,21 @@
     <title>Personal Budget Tracker</title>
 </head>
 <body>
-
-    <!-- Header Section -->
     <center>
         <header id="home">
             <h1>Personal Budget Tracker</h1>
             <nav>
-                <a href="#">Home</a> |
+                <a href="#home">Home</a> |
                 <a href="#addExpense">Add Expense</a> |
                 <a href="#budget">View Budget</a>
             </nav>
         </header>
-    </center>
-
-    <!-- Introduction Section -->
-    <center>
-        <section>
+    
+        <section id="welcomeSection">
             <h2>Welcome to Your Budget Tracker</h2>
             <p>Use this tool to manage your income and expenses efficiently. Enter your financial details below and keep track of your spending.</p>
         </section>
-    </center>
-
-    <!-- Add Income/Expense Section -->
-    <center>
+    
         <section id="addExpense">
             <h2>Add Income / Expense</h2>
             <form>
@@ -74,13 +66,10 @@
                 </table>
             </form>
         </section>
-    </center>
-
-    <!-- Budget Summary Section -->
-    <center>
+    
         <section id="budget">
             <h2>Budget Summary</h2>
-            <table border="1" width="80%">
+            <table border="1">
                 <thead>
                     <tr>
                         <th>Category</th>
@@ -91,6 +80,8 @@
                         <th>Status</th>
                         <th>Action</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>Salary</td>
                         <td>Rs.40000</td>
@@ -151,16 +142,10 @@
                             <button>Delete</button>
                         </td>
                     </tr>
-                </thead>
-                <tbody>
-                    <!-- Budget entries will go here -->
                 </tbody>
             </table>
         </section>
-    </center>
-
-    <!-- Footer Section -->
-    <center>
+    
         <footer>
             <p>&copy; 2025 Personal Budget Tracker | Version 1.0</p>
             <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
